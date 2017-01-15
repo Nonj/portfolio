@@ -1,0 +1,109 @@
+/* Top Part */
+#myName {
+    font-family: 'Indie Flower', 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.top {
+    padding-bottom: 6em;
+    padding-top: 5em;
+}
+
+
+/* Picture of me and About me*/
+.circ {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#pos {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Project Part*/
+.img-responsive {
+    padding-bottom: 1em;
+}
+
+.opa:hover {
+    opacity: .9;
+}
+
+.opa:hover figcaption {
+    opacity: 1;
+    color: white;
+}
+
+.opa figcaption {
+    position: absolute;
+    color: black;
+    top: 40%;
+    width: 50%;
+    left: 25%;
+    right: 75%;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;;
+}
+
+.opa figcaption p {
+    font-size: 10px;
+}
+
+@media (min-width: 768px) { 
+    #pos {
+        font-size: 26pt;
+    }
+
+    #myName {
+        font-size: 35pt;
+    }
+
+    .circ {
+        padding-bottom: 5em;
+        padding-top: 5em;
+    }
+
+    .opa figcaption {
+        position: absolute;
+        color: black;
+        top: 40%;
+        width: 50%;
+        left: 25%;
+        right: 75%;
+        text-align: center;
+        z-index: 10;
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;;
+    }
+    .opa figcaption p {
+        font-size: 16pt;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .top {
+        padding-top: 7em;
+        padding-bottom: 10em;
+    }
+    
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
